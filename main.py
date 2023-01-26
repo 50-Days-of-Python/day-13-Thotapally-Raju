@@ -1,13 +1,25 @@
 import math
 
-a=int(input())
+a=input()
 
-b=int(input()) 
+b=input()
 
-if(a>0 and b>0):
+if(int(a)>0 and int(b)>0):
 
- print(math.ceil((a+(a*b)/100)))
+ print(math.ceil((int(a)+(int(a)*int(b))/100)))
 
 else:
 
- print ("Invalid Input")
+ print ("Invalid input")
+
+
+
+
+
+
+
+
+
+
+
+
